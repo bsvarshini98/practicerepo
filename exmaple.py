@@ -11,7 +11,7 @@ def CheckOddwords(strlist):
         return output
     else:
         return -1
-l1 = []
+
 n = int(input("Enter number of elements : "))
 for i in range(0, n):
     element = str(input("enter elemenst {} \n".format(i)))
